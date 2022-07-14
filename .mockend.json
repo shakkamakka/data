@@ -1,5 +1,5 @@
 {
-  "status": [
+  "status": {
     {
       "id": 1,
       "value": "Backlog"
@@ -20,8 +20,8 @@
       "id": 5,
       "value": "Done"
     }
-  ],
-  "tickets": [
+  },
+  "tickets": {
     {
       "id": 1,
       "title": "ticket 1",
@@ -82,5 +82,5 @@
       "description": "description",
       "status": 5
     }
-  ]
+  }
 }
