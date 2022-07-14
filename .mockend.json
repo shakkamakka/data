@@ -1,14 +1,41 @@
 {
-  "Post": {
-    "title": { "string": {} },
+  "Status": {
+    "title": {
+      "string": [
+        "Backlog",
+        "To do",
+        "In Progress",
+        "Testing",
+        "Done"
+      ]
+    },
     "comments": {
-      "hasMany": "Comment"
+      "hasMany": "Ticket"
     }
   },
-  "Comment": {
-    "body": { "string": {} },
-    "post": {
-      "belongsTo": "Post"
+  "Ticket": {
+    "title": {
+      "string": {}
+    },
+    "body": {
+      "string": {}
+    },
+    "status": {
+      "belongsTo": "Status"
+    },
+    "users": {
+      "hasMany": "User"
+    }
+  },
+  "User": {
+    "firstname": {
+      "regexp": "[A-Z][a-z]{5,10}"
+    },
+    "lastname": {
+      "regexp": "[A-Z][a-z]{5,10}"
+    },
+    "avatar": {
+      "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
     }
   }
 }
