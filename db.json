@@ -21,7 +21,7 @@
       "value": "Done"
     }
   ],
-  "tickets": [
+  "tasks": [
     {
       "id": 1,
       "title": "ticket 1",
