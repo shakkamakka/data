@@ -2,111 +2,85 @@
   "status": [
     {
       "id": 1,
-      "value": "Backlog",
-      "tasks": [
-        {
-          "id": 1,
-          "title": "ticket 1",
-          "description": "Tempor orci dapibus. ",
-          "status": 1
-        },
-        {
-          "id": 2,
-          "title": "ticket 2",
-          "description": "Arcu odio ut sem. ",
-          "status": 1
-        },
-        {
-          "id": 3,
-          "title": "ticket 3",
-          "description": "Eu volutpat odio. ",
-          "status": 1
-        }
-      ]
+      "value": "Backlog"
     },
     {
       "id": 2,
-      "value": "To do",
-      "tasks": [
-        {
-          "id": 4,
-          "title": "ticket 4",
-          "description": "Tempor orci dapibus. ",
-          "status": 2
-        },
-        {
-          "id": 5,
-          "title": "ticket 5",
-          "description": "Arcu odio ut sem. ",
-          "status": 2
-        },
-        {
-          "id": 6,
-          "title": "ticket 6",
-          "description": "Eu volutpat odio. ",
-          "status": 2
-        }
-      ]
+      "value": "To do"
     },
     {
       "id": 3,
-      "value": "In Progress",
-      "tasks": [
-        {
-          "id": 7,
-          "title": "ticket 4",
-          "description": "Tempor orci dapibus. ",
-          "status": 3
-        },
-        {
-          "id": 8,
-          "title": "ticket 5",
-          "description": "Arcu odio ut sem. ",
-          "status": 3
-        }
-      ]
+      "value": "In Progress"
     },
     {
       "id": 4,
-      "value": "Testing",
-      "tasks": [
-        {
-          "id": 9,
-          "title": "ticket 4",
-          "description": "Tempor orci dapibus. ",
-          "status": 4
-        },
-        {
-          "id": 10,
-          "title": "ticket 5",
-          "description": "Arcu odio ut sem. ",
-          "status": 4
-        },
-        {
-          "id": 11,
-          "title": "ticket 6",
-          "description": "Eu volutpat odio. ",
-          "status": 4
-        }
-      ]
+      "value": "Testing"
     },
     {
       "id": 5,
-      "value": "Done",
-      "tasks": [
-        {
-          "id": 12,
-          "title": "ticket 4",
-          "description": "Tempor orci dapibus. ",
-          "status": 5
-        },
-        {
-          "id": 13,
-          "title": "ticket 5",
-          "description": "Arcu odio ut sem. ",
-          "status": 5
-        }
-      ]
+      "value": "Done"
+    }
+  ],
+  "tickets": [
+    {
+      "id": 1,
+      "title": "ticket 1",
+      "description": "description",
+      "status": 1
+    },
+    {
+      "id": 2,
+      "title": "ticket 2",
+      "description": "description",
+      "status": 2
+    },
+    {
+      "id": 3,
+      "title": "ticket 3",
+      "description": "description",
+      "status": 3
+    },
+    {
+      "id": 4,
+      "title": "ticket 4",
+      "description": "description",
+      "status": 4
+    },
+    {
+      "id": 5,
+      "title": "ticket 5",
+      "description": "description",
+      "status": 5
+    },
+    {
+      "id": 6,
+      "title": "ticket 61",
+      "description": "description",
+      "status": 1
+    },
+    {
+      "id": 7,
+      "title": "ticket 7",
+      "description": "description",
+      "status": 2
+    },
+    {
+      "id": 8,
+      "title": "ticket 8",
+      "description": "description",
+      "status": 3
+    },
+    {
+      "id": 9,
+      "title": "ticket 9",
+      "description": "description",
+      "status": 4
+    },
+    {
+      "id": 10,
+      "title": "ticket 10",
+      "description": "description",
+      "status": 5
     }
   ]
 }
